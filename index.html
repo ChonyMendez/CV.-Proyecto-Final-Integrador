@@ -206,11 +206,37 @@
             </div>
         </section>
         <section id="contacto">
+            <div class="info">
+                <P class="títulosección">Contacto</P>
+
+                <form action="action" class="formulario">
+                    <div class="column">
+                        <label for="name" class="formulario__label">Nombre y Apellido / Empresa</label>
+                        <input id="name" type="text" class="formulario__input"
+                            placeholder="Ej. Jose Rivero  / Rivero S.A." />
+                    </div>
+
+                    <div class="column">
+                        <label for="email" class="formulario__label">E-mail</label>
+                        <input id="email" type="text" class="formulario__input"
+                            placeholder=" Ej. joserivero@gmail.com" />
+                    </div>
+
+                    <label for="subject" class="formulario__label">Mensaje</label>
+                    <textarea id="subject" type="text" class="formulario__input__subject"
+                        placeholder=" Escriba aquí su mensaje" style="height: 250px;">
+                    </textarea>
+
+                    <div class="text-center">
+                        <button id="submit" class="formulario__submit">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
 
         </section>
         <a href="#btn-menu" class="back-to-top d-flex align-items-center justify-content-center active">
             <i class="bi bi-arrow-up-short"></i></a>
-            <i class="bi bi-arrow-up-short">⇈</i>
+        <i class="bi bi-arrow-up-short">⇈</i>
 </body>
 
 </html>
