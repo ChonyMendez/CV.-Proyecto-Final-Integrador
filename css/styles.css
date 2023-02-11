@@ -208,7 +208,7 @@ body{
 
 }
 
-/*--------------*/
+/*-----body---------*/
 
 .info {
     width: 90%;
@@ -254,47 +254,6 @@ li {
 }
 
 
-.back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-}
-.back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 996;
-    background: #149ddd;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    transition: all 0.4s;
-}
-
-.back-to-top i {
-    font-size: 28px;
-    color: #fff;
-    line-height: 0;
-  }
-  
-  .back-to-top:hover {
-    background: #2eafec;
-    color: #fff;
-  }
-.align-items-center {
-    align-items: center;
-}
-.justify-content-center {
-    justify-content: center;
-}
-.d-flex {
-    display: flex;
-}
-a {
-    color: #149ddd;
-    text-decoration: none;
-}
 
 
 /* Formulario de Contacto*/
@@ -320,17 +279,12 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: large;
   font-weight: normal;
-  
-    
 }
 
 .column {
     flex: 0 0 0 auto;
     width: 50%;
-    float: left;
-    
-    
-    
+    float: left;    
 }
 
 .formulario__input {
@@ -343,7 +297,6 @@ a {
 }
 
 .formulario__input__subject {
-   
     width: 95%;
     height: 300px;
     background: #fafbfd;
@@ -353,7 +306,8 @@ a {
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     margin:2% ;
-
 }
+
+
 
 
