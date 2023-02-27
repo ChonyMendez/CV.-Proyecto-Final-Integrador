@@ -1,6 +1,8 @@
 .container .btn-menu {
     float: left;
     line-height: 70px;
+    width: 100%;
+    height: auto;
 }
 
 .container .btn-menu label {
@@ -13,6 +15,8 @@
 
 #btn-menu {
     display: none;
+    width: 100%;
+    height: auto;
 }
 
 .container-menu {
@@ -33,6 +37,7 @@
 }
 
 .cont-menu {
+
     padding: 35px;
     width: 10%;
     max-width: 250px;
@@ -44,17 +49,19 @@
 }
 
 .cont-menu .img {
+   
     position: absolute;
     top: 0;
-    width: 80px;
-    height: 80px;
+    width: 40%;
+    height: auto;
     border-radius: 100%;
 }
 
 .cont-menu .img img {
+
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: auto;
 }
 
 #btn-menu:checked~.container-menu .cont-menu {
@@ -93,6 +100,19 @@
 
 /*------cuerpo------*/
 
+
+
+.container {
+    padding-right: 15px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -110,7 +130,7 @@ body {
 
 .name .content {
     width: 50%;
-    height: 50%;
+    height: auto;
     position: absolute;
     left: 25%;
 }
@@ -119,36 +139,42 @@ body {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size: 75px;
+    font-size: 375%;
     transform: skewY(5deg);
-    margin-bottom: 0;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
 }
 
 .name .content .p-2 {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
+    font-size: 250%;
     transform: skewY(5deg);
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
 }
 
 /*-----Foto de perfil-----*/
 .name .img {
     position: absolute;
     top: 20%;
-    right: 15%;
-    width: 250px;
-    height: 250px;
+    left: 65%;
+    width: 100%;
+    height: auto;
     border-radius: 100%;
     transform: skewY(5deg);
-    overflow: hidden;
+
 }
 
 .name .img img {
     border-radius: 100%;
-    width: 250px;
-    height: 250px;
+    width: 20%;
+    height: auto;
 }
 
 /*-----Redes Sociales-----*/
@@ -157,21 +183,27 @@ body {
     list-style: none;
     text-align: center;
     transform: skewY(5deg);
+    width: 100%;
+    height: auto;
 }
 
 .name .socials li {
     display: inline-block;
+    width: 10%;
+    height: auto;
+    list-style: none;
 }
 
 .fa {
     box-shadow: 0 0 15px 0;
     padding: 10px;
-    font-size: 40px;
+    font-size: 80px;
     width: 20px;
     text-align: center;
     text-decoration: none;
     margin: 5px;
     border-radius: 100%;
+
 }
 
 .fa:hover {
